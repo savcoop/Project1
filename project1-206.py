@@ -76,7 +76,7 @@ def mySortPrint(a,col,fileName):
 		first = y["First"]
 		last = y["Last"]
 		email = y["Email"]
-		outFile.write(first + last + email + '\n')
+		outFile.write(first + "," + last + "," + email + '\n')
 	outFile.close()
 
 def findAge(a):
